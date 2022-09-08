@@ -1,0 +1,1 @@
+**this readme is for the assignment in the 0x00-hello_world which involve c programming and shell**
