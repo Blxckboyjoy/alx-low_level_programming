@@ -21,4 +21,4 @@ __asm__ ("syscall"
 "S" (s),
 "d" (1));
 return (1);
- }
+}
