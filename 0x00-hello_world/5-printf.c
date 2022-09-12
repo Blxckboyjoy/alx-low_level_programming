@@ -2,11 +2,11 @@
 
 /**
  * main - entry point
- * description:'write program to print' 
+ * description:write program to print
  * return - always zero
  */
 
-int main(void)
+intmain(void)
 {
 
 printf("%s", "with proper grammar, but the outcome is a piece of art,\n");
