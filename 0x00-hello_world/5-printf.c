@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- *  main-prints a string
+ * main - entry point
  * description ;uses printf function
- * return:0
+ * return - always zero
  */
 
 int main(void)
