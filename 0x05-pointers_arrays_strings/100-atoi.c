@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _atoi - converts the string argument str to an integer (type int)
+ * _atoi: converts the string argument str to an integer (type int)
  * @s: string to be converted
  * return: int converted from string
  */
