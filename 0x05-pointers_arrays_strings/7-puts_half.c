@@ -11,7 +11,8 @@ void puts_half(char *str)
 int i;
 int c = 0;
 
-for (i = 0; 1 ; i++){
+for (i = 0; 1 ; i++)
+{
 if (str[i] == 0)
 break;
 c++;
