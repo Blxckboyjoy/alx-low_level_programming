@@ -2,10 +2,10 @@
 #include "main.h"
 
 /**
- * print_rev - prints string in reverse 
- * @s - string to be reversed 
- * return - none
- */
+* print_rev - prints a given string of characters in reverse
+* @s: string parameter to be reversed
+* Return: none
+*/
 void print_rev(char *s)
 {
 int i, j;
@@ -17,9 +17,9 @@ if (s[i] == 0)
 break;
 c++;
 }
-for (j = c -1; j >= 0; j--)
+for (j = c - 1; j >= 0; j--)
 {
-printf("%c" , s[j]);
+printf("%c", s[j]);
 }
-printf("\n");    
+printf("\n");
 }
