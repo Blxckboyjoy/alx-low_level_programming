@@ -18,4 +18,6 @@ if (i != (n - 1))
 printf("%d, ", a[i]);
 else if (i == (n - 1))
 printf("%d", a[i]);
+
+return (0);
 }
