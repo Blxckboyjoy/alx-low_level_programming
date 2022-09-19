@@ -8,13 +8,14 @@
  */
 int _strlen(char *s)
 {
-    int i
-    int c = 0;
+	int i;
+	int c = 0;
 
-    for (i = 0; 1 ; i++)
-    { if (*(s+i) == 0)
-    break;
-    c++;
-    }
-    return (0);
+	for (i = 0; 1 ; i++)
+	{
+		if (*(s + i) == 0)
+			break;
+		c++;
+	}
+	return (c);
 }
