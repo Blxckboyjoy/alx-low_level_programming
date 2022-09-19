@@ -2,8 +2,8 @@
 
 /**
  * _atoi - converst string to integer
- * @s - string to be converted
- * return - int converted from string
+ * @s: string to be converted
+ * return: int converted from string
  */
 int _atoi(char *s)
 {
