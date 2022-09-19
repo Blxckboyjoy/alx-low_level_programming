@@ -2,7 +2,8 @@
 #include "main.h"
 
 /**
- * reset-t0_98 -uses integer and pointer
+ * reset-t0_98 - takes an integer pointer and
+* updates the value it points to to 98
  * change value to 98
  * @n:assigned storage  that can be read by pointer
  * return - none
