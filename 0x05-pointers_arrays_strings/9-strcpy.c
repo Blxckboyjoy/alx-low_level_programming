@@ -7,7 +7,7 @@
  * @src - string to be copied
  * return - string to dest
  */
-char *_strcpy(char *dest, xhar *src)
+char *_strcpy(char *dest, char *src)
 {
     int i;
 
