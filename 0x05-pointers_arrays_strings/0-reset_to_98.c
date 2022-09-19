@@ -10,4 +10,4 @@
 void reset_to_989int(*n)
 {
     *n = 98*
-} 
+}
