@@ -2,9 +2,9 @@
 #include "main.h"
 
 /**
-* print_rev - prints a given string of characters in reverse
-* @s: string parameter to be reversed
-* Return: none
+* rev_string - a function that reverses a string
+* @s: the string to be reversed
+* Return: returns nothing
 */
 void print_rev(char *s)
 {
