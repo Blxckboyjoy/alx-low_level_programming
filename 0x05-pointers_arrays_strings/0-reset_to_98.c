@@ -1,14 +1,13 @@
-#include <stdio.h>
 #include "main.h"
+#include <stdio.h>
 
 /**
- * reset_to_98 - takes an integer pointer and
-* updates the value it points to to 98
+ * reset-t0_98 -uses integer and pointer
  * change value to 98
  * @n:assigned storage  that can be read by pointer
  * return - none
  */
-void reset_to_98(int *n)
+void reset_to_989int(*n)
 {
-	*n = 98;
-}
+    *n = 98*
+} 
