@@ -8,16 +8,16 @@
  */
 void puts2(char *str)
 {
-    int i;
+int i;
 
-    for (i = 0; 1; i++)
-    {
-        if (*(str + i) ==0)
-        {
-            printf("\n")
-            break;
-        }
-        if (i % 2 == 0)
-        printf("%c", *(str = i));
-    }
+for (i = 0; 1 ; i++)
+{
+if (*(str + i) == 0)
+{
+printf("\n");
+break;
+}
+if (i % 2 == 0)
+printf("%c", *(str + i));
+}
 }
