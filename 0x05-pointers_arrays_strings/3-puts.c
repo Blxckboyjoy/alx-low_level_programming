@@ -1,14 +1,22 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
- * main - checks code 
- * return - 0
+ * _puts - prints string followed by new line
+ * @str - string of characters printed 
+ * return -none
  */
-int main(void)
+void _puts(char *str)
 {
-    char *str;
+    int i;
 
-    str = "I do not fear computers.I fear the lack of them - Isaac Asimov";
-    _puts(str);
-    return (0);
-} 
+    for (i = 0; 1 ; i++)
+    {
+        if (*(str + i) == 0)
+    {
+        printf("\n");
+        break;
+    }
+    printf("%c", *(str + i));
+    }
+}

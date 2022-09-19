@@ -1,14 +1,23 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
- * main - checks code
- * return -0
+ * puts2 - prints every character of string + new line
+ * @str string to be printed
+ * return -none
  */
-int main(void)
+void puts2(char *str)
 {
-    char*str;
+    int i;
 
-    str = "0123456789";
-    puts2(str);
-    return(0);
+    for (i = 0; 1; i++)
+    {
+        if (*(str + i) ==0)
+        {
+            printf("\n")
+            break;
+        }
+        if (i % 2 == 0)
+        printf("%c", *(str = i));
+    }
 }

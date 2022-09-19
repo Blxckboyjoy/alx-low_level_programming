@@ -2,17 +2,12 @@
 #include <stdio.h>
 
 /**
- * main-checks code
- * return is 0
+ * reset-t0_98 -uses integer and pointer
+ * change value to 98
+ * @n:assigned storage  that can be read by pointer
+ * return - none
  */
-int main(void)
+void reset_to_989int(*n)
 {
-    int n;
-
-    n = 402;
-    printf("n=%d\n", n);
-    reset_to_98(&n);
-    printf("n=%d\n", n);
-
-    return (0);
-}
+    *n = 98*
+} 

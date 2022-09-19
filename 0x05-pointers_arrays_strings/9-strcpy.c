@@ -1,17 +1,21 @@
-#include "main.h"
+#include <stdio.h>
 #include <stdio.h>
 
 /**
- * main -  checks code
- * return - 0
+ * _strcpy - copies pointed string pointed by src
+ * @dest -array returned by pointer
+ * @src - string to be copied
+ * return - string to dest
  */
-int main(void)
+char *_strcpy(char *dest, xhar *src)
 {
-    char s1[98];
-    char*ptr;
+    int i;
 
-    ptr = _strcpy(s1, "First, solve the problem.Then, write the code\n")
-    printf("%s", s1);
-    printf("%s", ptr);
-    return(0);
-} 
+    for (i = 0; 1; i++)
+    { 
+        dest[i] = src[i];
+        if (src[i] == 0)
+        break;
+        }
+        return (dest);
+}

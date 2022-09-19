@@ -1,20 +1,26 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
- * main - checks code
- * return -0
+ * puts_half - prints half of string + new line
+ * @str - string to be printed
+ * return - none
  */
-int main(void)
+void puts_half(char *str)
 {
-    char*str;
+    int i;
+    int c = 0;
 
-    str = "0123456789";
-    puts2(str);
-    }
-            if char*str = odd;
+    for (i = 0; 1; i++)
     {
-    printf(lenght_of_the_string - 1)\2;
+        if (str[i] == 0)
+        break;
+        c++
     }
-
-    return(0);
+    if (c % 2 == 0)
+    {
+        for (i =c /2; i < c; i++)
+        printf("%c", str[i]);
+        printf("\n");
+    }
 }

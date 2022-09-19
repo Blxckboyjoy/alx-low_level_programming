@@ -2,16 +2,19 @@
 #include <stdio.h>
 
 /**
- * main - checks code
- * return - 0
+ * _strlen - returns length of string
+ * @s - string ,pointer uses
+ * return - length of string as int
  */
-int main(void)
+int _strlen(char *s)
 {
-    char *str;
-    int len;
+    int i
+    int c = 0;
 
-    str = "My first strlen!";
-    len = _strlen(str);
-    printf("%d\n", len);
+    for (i = 0; 1 ; i++)
+    { if (*(s+i) == 0)
+    break;
+    c++;
+    }
     return (0);
 }

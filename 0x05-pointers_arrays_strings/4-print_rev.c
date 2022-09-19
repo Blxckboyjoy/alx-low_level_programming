@@ -1,14 +1,25 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
- * main - checks code 
- * return - 0
+ * print_rev - prints string in reverse 
+ * @s - string to be reversed 
+ * return - none
  */
-int main(void);
+void print_rev(char *s)
 {
-    char *str;
+    int i, j;
+    int c = 0;
 
-    str = "I do not fear compuers.I fear the lack of them - Isaac Asimov";
-    print_rev(str);
-    return (0);
-} 
+    for (i = 0; 1 ; i++)
+    {
+        if (s[i] == 0)
+        break;
+        c++;
+    }
+    for (j = c -1; j >= 0; j--)
+    {
+        printf("%c" , s[j]);
+    }
+    printf("\n");    
+}
