@@ -3,8 +3,8 @@
 
 /**
  * swap_int - changes two values
- * int a -  pointer first integer
- * int b - pointer second integer
+ * *a -  pointer first integer
+ * fix*b - pointer second integer
  * return - none
  */
 void swap_int(int *a, int *b)
