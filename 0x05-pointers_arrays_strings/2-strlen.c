@@ -19,4 +19,3 @@ int _strlen(char *s)
 	}
 	return (c);
 }
-cription fix
