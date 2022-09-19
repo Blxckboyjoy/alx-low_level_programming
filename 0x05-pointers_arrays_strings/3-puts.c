@@ -2,9 +2,9 @@
 #include "main.h"
 
 /**
-* _strlen - a function that returns the length of a string
-* @s: a pointer to a string
-* Return: returns the length of the string as an int
+* _puts - a function that prints a string, followed by a new line, to stdout
+* @str: the string of characters to be printed
+* Return: returns nothing
 */
 void _puts(char *str)
 {
