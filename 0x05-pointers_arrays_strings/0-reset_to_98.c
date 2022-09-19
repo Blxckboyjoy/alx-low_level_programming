@@ -1,5 +1,5 @@
-#include "main.h"
 #include <stdio.h>
+#include "main.h"
 
 /**
  * reset-t0_98 -uses integer and pointer
@@ -7,7 +7,7 @@
  * @n:assigned storage  that can be read by pointer
  * return - none
  */
-void reset_to_989int(*n)
+void reset_to_98(int *n)
 {
-    *n = 98*
+	*n = 98;
 }
