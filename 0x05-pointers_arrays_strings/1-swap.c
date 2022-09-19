@@ -6,12 +6,12 @@
 * @a: pointer to the first integer
 * @b: pointer to the second integer
 * Return: returns nothing
-*/ 
+*/
 void swap_int(int *a, int *b)
 {
-    int swap;
+int swap;
 
-    swap = *a;
-    *a = *b;
-    *b = swap;
+swap = *a;
+*a = *b;
+*b = swap;
 }
