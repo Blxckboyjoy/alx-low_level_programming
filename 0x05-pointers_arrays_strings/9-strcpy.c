@@ -2,12 +2,11 @@
 #include <stdio.h>
 
 /**
- * _strcpy: a function copies the string pointed  to by src ,
- * including the terminating null byte(\0)'
+ * _strcpy - Copy strings from source arr to destination arr
  * to the buffer pointed to by dest.
  * @dest: array returned by pointer
  * @src: string to be copied
- * return - string to dest
+ * return - pointer to destination array
  */
 char *_strcpy(char *dest, char *src)
 {
