@@ -1,24 +1,25 @@
-#include <string.h>
 #include <stdio.h>
 #include "main.h"
 
 /**
- * string_toupper - converts lower case characters to uppercase.
- * strupr - converst lower case charcaters to uppercase letters.
- * char* - pointer to modified string.
- * @s1: string
- * return - return to pointer string.
- */
-char *string_toupper(char *)
+* cap_string - capitalizes the first letter of each word.
+* @s: a pointer to the string.
+* Return: returns s
+*/
+char *cap_string(char *s)
 {
-    int i;
-    char s1[i];
+int i;
 
-    strupr(i = 0, s1[i] != '\0', i--);
-    {
-        if (s1[i] >= 'a' && s1[i] <= 'z')
-        {
-        s1[i] = s1[i] - 32;
-        }
-    }
-} 
+for (i = 0; s[i] != 0; i++)
+	{
+if (i == 0 && s[i] >= 97 && s[i] <= 122)
+s[i] = s[i] - 32;
+if (s[i + 1] >= 97 && s[i + 1] <= 122)
+s[i + 1] = s[i + 1] - 32;
+}
+if (s[i] == '\t')
+{
+s[i + 1] = s[i + 1] - 32;
+}
+return (s);
+}
