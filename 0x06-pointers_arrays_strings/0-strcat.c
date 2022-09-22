@@ -4,10 +4,10 @@
 
 /**
  * _strcat - function that cocantenates two strings.
- * @dest: array returned by pointer.
+ * @dest: pointer of the cocatenated string.
  * @src:string to be coppied.
  * @n: number of times loop initiates.
- * return - pointer to the resulting string dest.
+ * Return:retuurns pointer to the resulting string dest.
  */
 char *_strncat(char *dest, char *src, int n)
 {
