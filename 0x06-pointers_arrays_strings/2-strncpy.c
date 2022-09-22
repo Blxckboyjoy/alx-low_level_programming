@@ -4,7 +4,7 @@
 
 /**
  * _strcpy - copies the string pointed,
- * (including null character) to the destiation.
+ * (including null character) to the dest.
  * @dest: array returned by pointer.
  * @src: string to be copied.
  * @n: number of charcarters to be copied.
