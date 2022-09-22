@@ -3,12 +3,11 @@
 #include "main.h"
 
 /**
- * *_strcat - appends a copy of the string pointed to by s2,
- * to the end of the string pointed by s1.
+ * *_strcat - function that cocantenates two strings.
  * @dest: array returned by pointer.
  * @src:string to be coppied.
  * @n: number of times loop initiates.
- * returns: pointer to the resulting string dest.
+ * return - pointer to the resulting string dest.
  */
 char *_strncat(char *dest, char *src, int n)
 {
