@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
- * _strcat: function that cocantenates two strings.
+ * _strcat - function that cocantenates two strings.
  * @dest: pointer of the cocatenated string.
  * @src:string to be coppied.
  * @n: number of times loop initiates.
