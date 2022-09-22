@@ -13,8 +13,7 @@ int _strcmp(char *s1, char *s2)
 {
     int n,l1,l2,i;
 
-    char s1[l1 + i];
-    char s2[i];
+
     strcmp(s1,s2);
 
     l1 = strlen(s1);
