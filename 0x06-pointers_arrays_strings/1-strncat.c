@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
- * strncat - appends the string pointed,
+ * _strncat - appends the string pointed,
  * to by src to the end of the string'
  * pointed by dest up to n characters long.
  * strcpy - copies the string pointed,
@@ -13,7 +13,7 @@
  * @src: string to be appended.
  * @n:the maximum number of characters to,
  * be appended.
- * return - pointer to the resulting string dest.
+ * Return: pointer to the resulting string dest.
  */
 char *_strncat(char *dest, char *src, int n)
 {
