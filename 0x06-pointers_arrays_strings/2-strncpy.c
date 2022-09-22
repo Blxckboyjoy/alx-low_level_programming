@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
- * _strcpy - copies the string pointed,
+ * _strncpy - copies the string pointed,
  * (including null character) to the dest.
  * @dest: array returned by pointer.
  * @src: string to be copied.
