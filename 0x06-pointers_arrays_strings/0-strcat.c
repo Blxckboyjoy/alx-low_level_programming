@@ -14,15 +14,15 @@ char *_strncat(char *dest, char *src, int n)
 {
 char dest;
 char src;
-int l1,l2,n;
+int l1, l2, n;
 
-l1=strlen(dest);
-l2=strlen(src);
-for (n=0; n <= l2; n++)
+l1= strlen(dest);
+l2= strlen(src);
+for (n= 0; n <= l2; n++)
 {
-    dest[l1+n] = src[n];
+dest[l1+ n] = src[n];
 }
-printf("%cdest",dest);
+printf("%cdest", dest);
 puts(src);
 
 }
