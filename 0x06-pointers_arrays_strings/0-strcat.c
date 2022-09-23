@@ -9,21 +9,20 @@
  * @dest: pointer of the cocatenated string.
  * @src:string to be coppied.
  * @n: number of times loop initiates.
- * Return:retuurns pointer to the resulting string dest.
  */
 char *_strncat(char *dest, char *src, int n)
 {
-int i, c = 0, e = 0, j = 0;
+char dest;
+char src;
+int l1,l2,n;
 
-for (i = 0; dest[i] != 0; i++)
-c++;
-for (i = 0; src[i] != 0; i++)
-e++;
-for (i = 0; src[j] != 0; i++)
+l1=strlen(dest);
+l2=strlen(src);
+for (n=0; n <= l2; n++)
 {
-dest[i] = src[j];
-j++;
+    dest[l1+n] = src[n];
 }
-return (dest);
+printf("%cdest",dest);
+puts(src);
 
 }
