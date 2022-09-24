@@ -10,14 +10,21 @@
  * @src:string to be coppied.
  * @n: number of times loop initiates.
  */
-char *_strncat(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src)
 {
-int i, dest_len; 
-dest_len = strlen(dest);
+int i, j;
+i = 0;
+j = 0;
 
-for (i = 0 ; i < n && src[i] != '\0' ; i++)
-dest[dest_len + i] = src[i];
-dest[dest_len + i] = '\0';
+while (dest[i] != '\0')
+i++;
+while (src[j] != '\0')
+{
+dest[i] = src[j];
+j++;
+i++;
+}
+dest[i] = '\0';
 
 return (dest);
 }
