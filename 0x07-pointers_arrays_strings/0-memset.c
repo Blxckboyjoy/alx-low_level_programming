@@ -19,7 +19,7 @@ _memset(*s; 'b'; sizeof(int) * n);
 
 for (i = 0; i < n; i++)
 {
-char b = char *s[i];
+printf("%c",b[i]);
 }
 return (s);
 }
