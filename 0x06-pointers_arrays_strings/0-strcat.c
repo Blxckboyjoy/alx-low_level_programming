@@ -13,10 +13,13 @@
  */
 char *_strcat(char *dest, char *src)
 {
-int i;
 char dest;
 char src;
-strncat(dest, src, i);
-printf("%s\n", dest);
-puts(src);
+
+printf("%s\n",dest);
+strcat(dest, src);
+printf("%c",src);
+
+return (0);
+
 }
