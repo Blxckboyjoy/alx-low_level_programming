@@ -4,7 +4,7 @@
 
 /**
  * memset - fill memory with a constant byte.
- * 
+ *
  * @s: a pointer to the block of memory to fill.
  * @b: constant byte to fill.
  * @n: This is the number of bytes to be set to the value.
