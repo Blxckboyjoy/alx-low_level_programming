@@ -17,7 +17,7 @@ int i;
 
 for (i = 0; i < n; i++)
 {
-char[s] = char[b];
+char b = char *s[i];
 }
-return (s);
+return (0);
 }
