@@ -21,5 +21,5 @@ for (i = 0; i < n; i++)
 {
 char b = char *s[i];
 }
-return (0);
+return (s);
 }
