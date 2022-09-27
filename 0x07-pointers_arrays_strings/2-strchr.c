@@ -19,5 +19,5 @@ return ((s + i));
 if (s[i] == 0)
 break;
 }
-return (0);
+return (NULL);
 }
