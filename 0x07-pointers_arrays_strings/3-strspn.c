@@ -17,11 +17,12 @@ int e = 0;
 
 for (i = 0; i != s[i] ; i++)
 {
-if (s[i] = '.')
+if (s[i] = ' ')
 break;
 for (j = 0; accept[j] != j; j++)
 {
-if (s[i] = accept[j]);
+if (s[i] = accept[j])
+j++;
 }
 
 }
