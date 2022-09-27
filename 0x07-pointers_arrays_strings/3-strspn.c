@@ -13,7 +13,7 @@
 {
 int i;
 int j;
-int e;
+int e = 0;
 
 for (i = 0; i != s[i] ; i++)
 {
