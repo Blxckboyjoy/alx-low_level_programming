@@ -6,6 +6,7 @@
  * _strchr - function returns a pointer to the first occurrence.
  * @s:dest memory
  * @c:source memory area
+ * Returns: 0
  */
 char *_strchr(char *s, char c)
 {
@@ -18,5 +19,5 @@ return ((s + c));
 if (s[i] == 0)
 break;
 }
-return (s);
+return (0);
 }
