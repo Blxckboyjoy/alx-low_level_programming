@@ -14,7 +14,7 @@ int i;
 for (i = 0; i < 1 ; i++)
 {
 if (s[i] == c)
-return ((s + c));
+return ((s + i));
 
 if (s[i] == 0)
 break;
