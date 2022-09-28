@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
- *_strspn - calculates the length (in bytes) of the initial segment 
+ *_strspn - calculates the length (in bytes) of the initial segment.
  * @s: string to be scanned.
  * @accept: string containing the characters to match.
  * Returns - nothing.
