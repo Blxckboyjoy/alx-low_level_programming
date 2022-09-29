@@ -10,13 +10,12 @@
 void _puts_recursion(char *s)
 {
 if
-(s <= 0) return 1;
+(s <= 0) return;
 return s *_puts_recursion(s - 1);
-
-void main(void);
+}
+void main();
 {
 puts ("%c\n", _puts_recursion(s));
 return (0);
 }
-
 }
