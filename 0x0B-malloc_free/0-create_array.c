@@ -23,7 +23,7 @@ return (NULL);
 }
 for (i = 0; i < size; i++)
 {
-arr[i] = c;
+ptr[i] = c;
 }
-return (arr);
+return (ptr;
 }
