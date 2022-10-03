@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include "main.h"
 
 /**
@@ -25,5 +26,5 @@ for (i = 0; i < size; i++)
 {
 ptr[i] = c;
 }
-return (ptr;
+return (ptr);
 }
