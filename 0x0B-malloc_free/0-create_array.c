@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
- * create_array - a function that creates array of characters.
+ * create_array - creates an array of chars, and initializes it with a specific char.
  * @size: the size of memory to print.
  * @c: the character of the memory to print.
  * Returns - pointer to the array, or NULL if it fails.
