@@ -5,7 +5,7 @@
 * main - prints the minimum number of coins to make change
 * @argc: number of command-line arguments
 * @argv: an array of strings that contain the command-line arguments
-* Return: returns 0 (sucessful) or 1 on error 
+* Return: returns 0 or 1 on error
 */
 int main(int argc, char *argv[])
 {
