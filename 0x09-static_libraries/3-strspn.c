@@ -3,10 +3,10 @@
 #include "main.h"
 
 /**
- *_strspn - calculates the length (in bytes) of the initial segment.
+ *_strspn - a function that gets the length of a prefix substring.
  * @s: string to be scanned.
  * @accept: string containing the characters to match.
- * Returns - nothing.
+ * Returns: nothing.
  */
 unsigned int _strspn(char *s, char *accept)
 {

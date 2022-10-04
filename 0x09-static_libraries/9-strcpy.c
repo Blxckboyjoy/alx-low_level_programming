@@ -7,7 +7,7 @@
  * to the buffer pointed to by dest.
  * @dest: array returned by pointer
  * @src: string to be copied
- * return - pointer to destination array
+ * return: pointer to destination array (dest)
  */
 char *_strcpy(char *dest, char *src)
 {

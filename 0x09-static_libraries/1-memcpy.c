@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
- * _memcpy - memory area to copy.
+ * _memcpy - a function that copies a memory area.
  * @dest: dest memory
  * @src: source memory area
  * @n: bytes to copy
