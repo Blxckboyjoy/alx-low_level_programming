@@ -22,7 +22,7 @@ if (str[i] == '\0')
 break;
 }
 
-newstr = (char *) malloc(c * sizeof(char));
+newstr = (char *) malloc(c *sizeof(char));
 if (newstr == NULL)
 return (NULL);
 

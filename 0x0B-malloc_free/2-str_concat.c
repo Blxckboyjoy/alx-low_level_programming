@@ -21,7 +21,7 @@ c1 = count_str1(s1);
 c2 = count_str2(s2);
 
 c = c1 + c2 + 1;
-newstr = (char *) malloc(c * sizeof(char));
+newstr = (char *) malloc(c *sizeof(char));
 if (newstr == NULL)
 return (NULL);
 i = 0;
