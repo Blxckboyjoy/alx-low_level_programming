@@ -25,5 +25,5 @@ for (i = 0; i < size; i++)
 {
 ptr[i] = c;
 }
-return (arr);
+return (ptr);
 }
