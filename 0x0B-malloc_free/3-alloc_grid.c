@@ -22,7 +22,7 @@ len = sizeof(int *) *hight + sizeof(int) *width *hight;
 arr = (int **) malloc(len);
 if (arr == NULL)
 return (NULL);
-ptr = (int *) *(arr + hight);
+ptr = (int *) *(arr +hight);
 
 for (i = 0; i < hight; i++)
 {
