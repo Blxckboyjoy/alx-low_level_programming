@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdio.h>
+#include "main.h"
 
 /**
  * _strcpy - Copy strings from source arr to destination arr
