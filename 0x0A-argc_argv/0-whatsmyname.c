@@ -4,8 +4,8 @@
  * main - a program that prints its name.
  * @argc: number of command-line arguments
  * @argv: array of strings containing the command-line arguments
- * Returns: returns 0 (success).
- */ 
+ * Returns: 0 
+ */
 int main(int argc, char *argv[])
 {
 (void)argc;
