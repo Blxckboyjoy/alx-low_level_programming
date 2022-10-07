@@ -2,11 +2,6 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-int count_words(char *str);
-int *count_char(char *strlen, int c);
-char **split_string(char **arrystn, char *str);
-
-
 /**
 * strtow - a function that splits a string into words
 * @str: a ponter to the string to be operated on
