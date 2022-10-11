@@ -51,6 +51,5 @@ dog_t *new_dog(char *name, float age, char *owner)
 		if (owner[i] == '\0')
 			break;
 	}
-
-	return (newDog);
+return (newDog);
 }
