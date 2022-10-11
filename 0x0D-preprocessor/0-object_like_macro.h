@@ -3,4 +3,4 @@
 
 #define SIZE 1024
 
-#endif /*object_like_macro.h*/
+#endif /*0-object_like_macro.h*/
