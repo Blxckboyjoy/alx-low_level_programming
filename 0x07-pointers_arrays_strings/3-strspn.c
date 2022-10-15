@@ -6,7 +6,7 @@
  *_strspn - calculates the length (in bytes) of the initial segment.
  * @s: string to be scanned.
  * @accept: string containing the characters to match.
- * Returns - nothing.
+ * Returns: c
  */
 unsigned int _strspn(char *s, char *accept)
 {
