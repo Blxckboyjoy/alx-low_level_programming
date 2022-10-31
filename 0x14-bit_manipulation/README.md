@@ -1,0 +1,1 @@
+**ASSSIGNMENT  for 0x14-bit-maniipulation**
