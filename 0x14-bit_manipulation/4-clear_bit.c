@@ -8,14 +8,14 @@
 */
 int clear_bit(unsigned long int *n, unsigned int index)
 {
-int mask;
+	int mask;
 
-if (index > 63)
-return (-1);
+	if (index > 63)
+		return (-1);
 
-mask = 1 << index;
+	mask = 1 << index;
 
-*n = (*n & ~mask);
+	*n = (*n & ~mask);
 
-return (1);
+	return (1);
 }

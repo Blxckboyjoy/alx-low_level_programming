@@ -1,5 +1,3 @@
-**What are pointers ad how to use them**
-**What are arrays and how to use them**
-**What are the differences between pointers and arrays**
-**How to use strings and how to manipuate them**
-**Scope of variables**
+# More Pointers, Arrays and Strings
+* **0-strcat.c** -  a function that concatenates two strings
+

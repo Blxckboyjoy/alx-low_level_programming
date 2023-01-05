@@ -1,13 +1,12 @@
 #include <stdio.h>
-#include <string.h>
 #include "main.h"
 
 /**
- * _strchr - function returns a pointer to the first occurrence.
- * @s:dest memory
- * @c:source memory area
- * Returns: 0
- */
+* _strchr - a function that locates a character in a string
+* @s: the string to locate the first occurence of c
+* @c: the character to locate
+* Return: returns a pointer to the first occurence of c
+*/
 char *_strchr(char *s, char c)
 {
 	int i;

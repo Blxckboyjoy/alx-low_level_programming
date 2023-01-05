@@ -3,9 +3,9 @@
 #include <time.h>
 
 /**
- * main - generates random valid
- * password for 101-crackme
- * return - 0
+ * main - program that generates random valid
+ * passwords for the program 101-crackme
+ * Return: returns 0
  */
 int main(void)
 {

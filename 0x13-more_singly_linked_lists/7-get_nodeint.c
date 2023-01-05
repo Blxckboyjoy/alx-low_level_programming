@@ -9,34 +9,34 @@
 */
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 {
-unsigned int i = 0;
-listint_t *tmp;
+	unsigned int i = 0;
+	listint_t *tmp;
 
-if (!head)
-return (NULL);
+	if (!head)
+		return (NULL);
 
-tmp = head;
+	tmp = head;
 
-/* Checking if the node exists */
-while (tmp)
-{
-tmp = tmp->next;
-i++;
-}
-if (index >= i)
-{
-return (NULL);
-}
+	/* Checking if the node exists */
+	while (tmp)
+	{
+		tmp = tmp->next;
+		i++;
+	}
+	if (index >= i)
+	{
+		return (NULL);
+	}
 
-i = 0;
-tmp = head;
+	i = 0;
+	tmp = head;
 
-/* Moving the tmp pointer to the index position */
-while (tmp && i < index)
-{
-tmp = tmp->next;
-i++;
-}
+	/* Moving the tmp pointer to the index position */
+	while (tmp && i < index)
+	{
+		tmp = tmp->next;
+		i++;
+	}
 
-return (tmp);
+	return (tmp);
 }

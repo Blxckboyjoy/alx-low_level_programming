@@ -2,8 +2,8 @@
 
 /**
 * _isdigit - checks for a digit
-* @c:character checked
-* Return: returns 1 if c is single number,otherwise 0
+* @c: the character to be checked
+* Return: returns 1 if c is a digit, 0 otherwise
 */
 int _isdigit(int c)
 {

@@ -1,13 +1,12 @@
-#include <stdio.h>
-#include <string.h>
 #include "main.h"
+#include <stdio.h>
 
 /**
- *_strspn - calculates the length (in bytes) of the initial segment.
- * @s: string to be scanned.
- * @accept: string containing the characters to match.
- * Returns: c
- */
+* _strspn - a function that gets the length of a prefix substring
+* @s: the string to be tested
+* @accept: the string to find
+* Return: returns the number of bytes
+*/
 unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int i, j;

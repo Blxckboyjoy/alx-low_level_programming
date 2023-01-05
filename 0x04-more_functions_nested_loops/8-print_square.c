@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
-* print_square - prints a square with dimentions
-* @size: length and breadth of hsquare
-* Return: nothing
+* print_square - prints a square of dimension 'size'
+* @size: length and breadth of the square
+* Return: returns nothing
 */
 void print_square(int size)
 {

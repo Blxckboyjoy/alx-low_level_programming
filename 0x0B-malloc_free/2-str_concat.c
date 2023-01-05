@@ -1,6 +1,9 @@
 #include "main.h"
 #include <stdlib.h>
 
+int count_str1(char *s1);
+int count_str2(char *s2);
+
 /**
 * str_concat  - a function that concantenates two strings
 * @s1: the destination string
@@ -11,37 +14,35 @@
 */
 char *str_concat(char *s1, char *s2)
 {
-int count_str1(char *s1);
-int count_str2(char *s2);
-int i;
-int j = 0, c = 0, c1 = 0, c2 = 0;
-char *newstr;
+	int i;
+	int j = 0, c = 0, c1 = 0, c2 = 0;
+	char *newStr;
 
-c1 = count_str1(s1);
-c2 = count_str2(s2);
+	c1 = count_str1(s1);
+	c2 = count_str2(s2);
 
-c = c1 + c2 + 1;
-newstr = (char *) malloc(c *sizeof(char));
-if (newstr == NULL)
-return (NULL);
-i = 0;
-if (s1 != NULL)
-{
-for (i = 0; i < c1; i++)
-{
-newstr[i] = s1[i];
-}
-}
-if (s2 != NULL)
-{
-for ( ; i < c; i++)
-{
-newstr[i] = s2[j];
-j++;
-}
-}
-newstr[c - 1] = '\0';
-return (newstr);
+	c = c1 + c2 + 1;
+	newStr = (char *) malloc(c * sizeof(char));
+	if (newStr == NULL)
+		return (NULL);
+	i = 0;
+	if (s1 != NULL)
+	{
+		for (i = 0; i < c1; i++)
+		{
+			newStr[i] = s1[i];
+		}
+	}
+	if (s2 != NULL)
+	{
+		for ( ; i < c; i++)
+		{
+			newStr[i] = s2[j];
+			j++;
+		}
+	}
+	newStr[c - 1] = '\0';
+	return (newStr);
 }
 
 /**

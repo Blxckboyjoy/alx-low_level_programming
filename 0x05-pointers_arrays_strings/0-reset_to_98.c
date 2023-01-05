@@ -1,5 +1,5 @@
-#include "main.h"
 #include <stdio.h>
+#include "main.h"
 
 /**
 * reset_to_98 - takes an integer pointer and

@@ -8,17 +8,17 @@
 */
 int pop_listint(listint_t **head)
 {
-int n;
+	int n;
 
-listint_t *tmp;
+	listint_t *tmp;
 
-if (*head == NULL)
-return (0);
+	if (*head == NULL)
+		return (0);
 
-tmp = *head;
-n = (*head)->n;
-*head = (*head)->next;
-free(tmp);
+	tmp = *head;
+	n = (*head)->n;
+	*head = (*head)->next;
+	free(tmp);
 
-return (n);
+	return (n);
 }

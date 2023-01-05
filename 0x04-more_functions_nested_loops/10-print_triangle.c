@@ -1,9 +1,9 @@
-include "main.h"
+#include "main.h"
 
 /**
-* print_triangle - draws a triangle 
-* @size: height and width of triangle
-* Return: rnothing
+* print_triangle - draws a triangle in terminal
+* @size: height and width of the triangle
+* Return: returns nothing
 */
 void print_triangle(int size)
 {

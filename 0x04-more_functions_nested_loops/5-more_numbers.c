@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
-* more_numbers - prints numbers 0 to 9, 10times
-* Return: none
+* more_numbers - prints numbers 0 to 9, ten times
+* Return: returns nothing
 */
 void more_numbers(void)
 {

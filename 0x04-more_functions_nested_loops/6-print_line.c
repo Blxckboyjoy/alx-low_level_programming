@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
-* print_line - draws a straight line 
-* @n: number of times '_' printed
-* Return: nothing
+* print_line - draws a straight line in terminal
+* @n: number of times '_' should be printed
+* Return: returns nothing
 */
 void print_line(int n)
 {

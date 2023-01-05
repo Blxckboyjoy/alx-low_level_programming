@@ -2,9 +2,9 @@
 #include <stdarg.h>
 
 /**
-* sum_them_all - a program that returns the sum of all of its parameters
+* sum_them_all - a program that returns the sum of all of its paraneters
 * @n: the number of arguments (excluding n itself)
-* Return: returns int
+* Return: returns an int
 */
 int sum_them_all(const unsigned int n, ...)
 {

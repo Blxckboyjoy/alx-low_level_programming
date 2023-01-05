@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
-* main - solve fizzbuzz
-* Return: 0
+* main - a program to solve the 'FizzBuzz' test
+* Return: returns 0
 */
 int main(void)
 {

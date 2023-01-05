@@ -1,1 +1,1 @@
-**This is a readme for my 0x03 assignment**
+* 0-main.c

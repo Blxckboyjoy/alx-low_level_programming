@@ -9,26 +9,26 @@
 */
 char *_strdup(char *str)
 {
-int i;
-int c = 0;
-char *newstr;
+	int i;
+	int c = 0;
+	char *newStr;
 
-if (str == NULL)
-return (NULL);
-for (i = 0 ; ; i++)
-{
-c++;
-if (str[i] == '\0')
-break;
-}
+	if (str == NULL)
+		return (NULL);
+	for (i = 0 ; ; i++)
+	{
+		c++;
+		if (str[i] == '\0')
+			break;
+	}
 
-newstr = (char *) malloc(c *sizeof(char));
-if (newstr == NULL)
-return (NULL);
+	newStr = (char *) malloc(c * sizeof(char));
+	if (newStr == NULL)
+		return (NULL);
 
-for (i = 0; i < c; i++)
-{
-newstr[i] = str[i];
-}
-return (newstr);
+	for (i = 0; i < c; i++)
+	{
+		newStr[i] = str[i];
+	}
+	return (newStr);
 }
